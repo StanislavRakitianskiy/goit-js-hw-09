@@ -1,0 +1,27 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 24px;
+  column-gap: 24px;
+  margin-top: 20px;
+}
+.gallery-item {
+  transition: transform 250ms ease-in-out;
+}
+.gallery-item:hover {
+  transform: scale(1.1);
+}
+.sl-wrapper .sl-navigation button {
+  color: #fff;
+}
+.sl-wrapper .sl-close {
+  color: #fff;
+}
+.sl-wrapper {
+  background: rgba(46, 47, 66, 0.8);
+}
+.sl-wrapper .sl-counter {
+    color: #fff;
+}
